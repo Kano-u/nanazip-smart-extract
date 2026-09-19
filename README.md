@@ -37,6 +37,14 @@ The wrapper checks these locations:
 %ProgramFiles(x86)%\NanaZip\NanaZip.Universal.Windows.exe
 ```
 
+## Download
+
+Download `SmartExtract.exe` from the latest GitHub Release:
+
+```text
+https://github.com/Kano-u/nanazip-smart-extract/releases/latest
+```
+
 ## Usage
 
 Run the executable with the archive path as its first argument:
@@ -64,16 +72,17 @@ The archive is extracted to its own directory. The output follows Smart Extracti
 
 NanaZip opens its GUI progress window while extraction is running.
 
-## Source
+## Build
 
-- `SmartExtract.ahk` - AutoHotkey v2 source
-- `SmartExtract.exe` - compiled 64-bit executable
+The source is `SmartExtract.ahk`, written for AutoHotkey v2.
 
-The executable is compiled with AutoHotkey v2's `Ahk2Exe`:
+Compile it with `Ahk2Exe`:
 
 ```cmd
 Ahk2Exe.exe /in "SmartExtract.ahk" /out "SmartExtract.exe" /base "AutoHotkey64.exe"
 ```
+
+The compiled executable is published as a GitHub Release asset. It is not committed to the source tree.
 
 ## Notes
 
