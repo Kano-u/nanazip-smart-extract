@@ -1,4 +1,5 @@
 # Local and build artifacts
+release/
 *.log
 *.tmp
 *.bak
