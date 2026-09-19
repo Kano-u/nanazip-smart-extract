@@ -1,0 +1,8 @@
+# Local and build artifacts
+*.log
+*.tmp
+*.bak
+
+# AutoHotkey compiler staging
+.ahk2exe/
+Compiler/
